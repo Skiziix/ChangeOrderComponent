@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="MAVComponents" constructor="ChangeOrderComponent" version="1.0.2" display-name-key="ChangeOrderComponent v1.0.2" description-key="Tracks project change orders in json." control-type="standard" >
+  <control namespace="MAVComponents" constructor="ChangeOrderComponent" version="1.0.3" display-name-key="ChangeOrderComponent v1.0.3" description-key="Tracks project change orders in json." control-type="standard" >
   
     <external-service-usage enabled="false">
      
