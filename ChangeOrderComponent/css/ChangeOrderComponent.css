@@ -1,0 +1,85 @@
+.labelElement {
+    width:100%;
+    float: left;
+    color: black;
+    align-items: center;
+}
+
+.labelTitleElement {
+    width:10%;
+    float:left;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    border-radius: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1.5%;
+    margin-right: .25%;
+    
+}
+
+.inputAmountElement {
+    width:30%;
+    float:left;
+    margin-right: .25%;
+    border: 2px solid;
+    border-radius: 5%;
+}
+
+
+.inputStatusElement {
+    width:30%;
+    float:left;
+    border: 2px solid;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.deleteChangeOrder {
+    width: 5%;
+    float: left;
+    background-color: orangered;
+    border-radius: 5%;
+    margin-left: 1%;
+    border-style: none;
+}
+
+input[type="submit"].deleteChangeOrder:hover {
+    background-color: brown;
+}
+
+.changeOrderDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#inputNewOrder {
+    border-radius: 5%;
+    border-style: none;
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: forestgreen;
+}
+
+input[type="submit"]#inputNewOrder:hover {
+    background-color: darkgreen;
+}
+
+#outerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Making elements the same height */
+.children {
+    margin-top: 0.5%;
+    height: auto;
+}

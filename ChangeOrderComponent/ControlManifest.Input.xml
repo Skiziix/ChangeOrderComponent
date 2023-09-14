@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MAVComponents" constructor="ChangeOrderComponent" version="1.0.2" display-name-key="ChangeOrderComponent v1.0.2" description-key="Tracks project change orders in json." control-type="standard" >
+  
+    <external-service-usage enabled="false">
+     
+    </external-service-usage>
+    
+    <property name="OutputField" display-name-key="Output to selected field" description-key="The column that the json array is being stored in" of-type="Multiple" usage="bound" required="true" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/ChangeOrderComponent.css" order="1"/>
+      
+    </resources>
+  
+  </control>
+</manifest>
